@@ -968,7 +968,7 @@ def main():
     settings = ScholarSettings()
     querier.apply_settings(settings)
     query = SearchScholarQuery()
-    query.set_author('shreshth tuli')
+    query.set_author('shikhar tuli')
     querier.send_query(query)
     results = txt(querier, True)
     print(results)
