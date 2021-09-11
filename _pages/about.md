@@ -8,11 +8,11 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Room 407, Huxley Building</p>
-    <p>180 Queen's Gate</p>
+    <p>Room B321, E-Quad</p>
+    <p>Princeton University</p>
     <p>South Kensington</p>
-    <p>Imperial College London</p>
-    <p>London, SW7 2AZ</p>
+    <p>Princeton</p>
+    <p>NJ, 08544</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
