@@ -1,48 +1,54 @@
 ---
 ---
 
-@article{tuli2021cosco,
- abstract = {Intelligent task placement and management of tasks in large-scale fog platforms is challenging due to the highly volatile nature of modern workload applications and sensitive user requirements of low energy consumption and response time. Container orchestration platforms have emerged to alleviate this problem with prior art either using heuristics to quickly reach scheduling decisions or AI driven methods like reinforcement learning and evolutionary approaches to adapt to dynamic scenarios. The former often fail to quickly adapt in highly dynamic environments, whereas the latter have run-times that are slow enough to negatively impact response time. Therefore, there is a need for scheduling policies that are both reactive to work efficiently in volatile environments and have low scheduling overheads. To achieve this, we propose a Gradient Based Optimization Strategy using Back-propagation of gradients with respect to Input (GOBI). Further, we leverage the accuracy of predictive digital-twin models and simulation capabilities by developing a Coupled Simulation and Container Orchestration Framework (COSCO). Using this, we create a hybrid simulation driven decision approach, GOBI*, to optimize Quality of Service (QoS) parameters. Co-simulation and the back-propagation approaches allow these methods to adapt quickly in volatile environments.  Experiments conducted using real-world data on fog applications using the GOBI and GOBI* methods, show a significant improvement in terms of energy consumption, response time, Service Level Objective and scheduling time by up to 15, 40, 4, and 82 percent respectively when compared to the state-of-the-art algorithms.},
- arxiv = {2104.14392},
- author = {Tuli, Shreshth and Poojara, Shivananda and Srirama, Satish and Casale, Giuliano and Jennings, Nicholas R},
- citationlist = {http://scholar.google.com/scholar?cites=1645120428478541954&as_sdt=2005&sciodt=0,5&hl=en},
+@article{tuli2021are,
+ arxiv = {2105.07197},
+ author = {Tuli, Shikhar and Dasgupta, Ishita and Grant, Erin and Griffiths, Thomas L.},
+ citationlist = {http://scholar.google.com/scholar?cites=667529829221842193&as_sdt=2005&sciodt=0,5&hl=en},
  citations = {3},
- code = {https://github.com/imperial-qore/COSCO},
- journal = {IEEE Transactions on Parallel and Distributed Systems},
- number = {1},
- pages = {101-116},
- selected = {true},
- supp = {https://www.youtube.com/watch?v=RZOWTj0rfBQ},
- title = {COSCO: Container Orchestration using Co-Simulation and Gradient Based Optimization for Fog Computing Environments},
- volume = {33},
+ code = {https://github.com/shikhartuli/cnn_txf_bias},
+ journal = {Annual Meeting of the Cognitive Science Society (CogSci)},
+ title = {Are Convolutional Neural Networks or Transformers more like human vision?},
  year = {2021}
 }
 
-@article{tuli2021tango,
- abstract = {Robots assisting us in factories or homes must learn to make use of objects as tools to perform tasks, e.g., a tray for carrying objects. We consider the problem of learning commonsense knowledge of when a tool may be useful and how its use may be composed with other tools to accomplish a high-level task instructed by a human. We introduce TANGO, a novel neural model for predicting task-specific tool interactions. TANGO is trained using demonstrations obtained from human teachers instructing a virtual robot in a physics simulator. TANGO encodes the world state comprising of objects and symbolic relationships between them using a graph neural network. The model learns to attend over the scene using knowledge of the goal and the action history, finally decoding the symbolic action to execute. Crucially, we address generalization to unseen environments where some known tools are missing, but alternative unseen tools are present. We show that by augmenting the representation of the environment with pre-trained embeddings derived from a knowledge-base, the model can generalize effectively to novel environments. Experimental results show a 60.5-78.9% improvement over the baseline in predicting successful symbolic plans in unseen settings for a simulated mobile manipulator},
- arxiv = {2105.04556},
- author = {Tuli, Shreshth and Bansal, Rajas and Paul, Rohan and Mausam},
- citationlist = {#},
- citations = {0},
- code = {https://github.com/reail-iitd/Robot-task-planning},
- journal = {International Joint Conference on Artificial Intelligence (IJCAI)},
- title = {TANGO: Commonsense Generalization in Predicting Tool Interactions for Mobile Manipulators},
- year = {2021}
-}
-
-@article{tuli2020ithermofog,
- abstract = {Preventing failures in Cloud Data Centers (CDCs) due to high temperatures is a key challenge. Such centers have so many servers that it is very difficult to efficiently keep their temperature under control. To help address this issue, we propose an artificial intelligence (AI) based automatic scheduling method that creates a thermal profile of CDC nodes using an integrated Internet of Things (IoT) and Fog computing environment called iThermoFog. We use a Gaussian Mixture Model to approximate the thermal characteristics of the servers which are used to predict and schedule tasks to minimize the average CDC temperature. Through empirical evaluation on an iFogSim and ThermoSim based testbed and IoT based smart home application, we show that iThermoFog outperforms the current state-of-the-art thermal-aware scheduling method. Specifically, iThermoFog reduces mean square temperatures by 13.5%, while simultaneously improving energy consumption, execution time, scheduling time and bandwidth usage.},
- author = {Tuli, Shreshth and Gill, Sukhpal S and Casale, Giuliano and Jennings, Nicholas R},
- citationlist = {http://scholar.google.com/scholar?cites=14447955092575628688&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {8},
- journal = {Internet Technology Letters},
- number = {5},
- pages = {e198},
- pdf = {ithermofog.pdf},
- publisher = {Wiley Online Library},
- title = {iThermoFog: IoT-Fog based automatic thermal profile creation for cloud data centers using artificial intelligence techniques},
- volume = {3},
+@article{tuli2020design,
+ author = {Tuli, Shikhar and Bhowmik, Debanjan},
+ journal = {Proceedings of the International Conference on Neuromorphic Systems (ICONS)},
+ numpages = {8},
+ articleno = {14},
+ title = {Design of a Conventional-Transistor-Based Analog Integrated Circuit for On-Chip Learning in a Spiking Neural Network},
  year = {2020}
+}
+
+@article{tuli2020rram,
+ author = {Tuli, Shikhar and Rios, Marco and Levisse, Alexandre and ESL, David Atienza},
+ journal = {Proceedings of the 25th Asia and South Pacific Design Automation Conference (ASP-DAC)},
+ pages = {181-186},
+ title = {RRAM-VAC: A Variability-Aware Controller for RRAM-based Memory Architectures},
+ year = {2020}
+}
+
+@article{gupta2020characterization,
+ author = {Gupta, Charu and Gupta, Anshul and Tuli, Shikhar and Bury, Erik and Parvais, Bertrand and Dixit, Abhisek},
+ citationlist = {http://scholar.google.com/scholar?cites=8158582607463640183&as_sdt=2005&sciodt=0,5&hl=en},
+ citations = {2},
+ journal = {IEEE Transactions on Electron Devices},
+ number = {1},
+ pages = {4-10},
+ title = {Characterization and Modeling of Hot Carrier Degradation in N-Channel Gate-All-Around Nanowire FETs},
+ volume = {67},
+ year = {2020}
+}
+
+@article{jindal2019dhoom,
+ author = {Jindal, Neetu and Chandran, Sandeep and Panda, Preeti Ranjan and Prasad, Sanjiva and Mitra, Abhay and Singhal, Kunal and Gupta, Shubham and Tuli, Shikhar},
+ citationlist = {http://scholar.google.com/scholar?cites=6988318319033446326&as_sdt=2005&sciodt=0,5&hl=en},
+ citations = {6},
+ journal = {Proceedings of the 56th ACM/IEEE Design Automation Conference (DAC)},
+ pages = {1-6},
+ title = {DHOOM: Reusing Design-for-Debug Hardware for Online Monitoring},
+ year = {2019}
 }
 
 @article{gill2019transformative,
@@ -62,7 +68,7 @@
 @article{tuli2020modelling,
  author = {Tuli, Shreshth and Tuli, Shikhar and Verma, Ruchi and Tuli, Rakesh},
  citationlist = {http://scholar.google.com/scholar?cites=10793541038144279309&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {2},
+ citations = {5},
  code = {https://github.com/shreshthtuli/covid-19-prediction},
  html = {https://shreshthtuli.github.io/projects/covid/},
  journal = {Biomedical Research and Clinical Reviews},
@@ -88,42 +94,6 @@
  year = {2020}
 }
 
-@article{bansal2020toolnet,
- arxiv = {2006.05478},
- author = {Bansal, Rajas and Tuli, Shreshth and Paul, Rohan and others},
- citationlist = {http://scholar.google.com/scholar?cites=15953043643385763789&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {1},
- code = {https://github.com/reail-iitd/commonsense-task-planning},
- journal = {Advances & Challenges in Imitation Learning for Robotics Workshop in Robotics Science and Systems (RSS)},
- title = {ToolNet: Using Commonsense Generalization for Predicting Tool Use for Robot Plan Synthesis},
- year = {2020}
-}
-
-@article{tuli2020dynamic,
- arxiv = {2009.02186},
- author = {Tuli, Shreshth and Ilager, Shashikant and Ramamohanarao, Kotagiri and Buyya, Rajkumar},
- citationlist = {http://scholar.google.com/scholar?cites=6165114288373114228&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {19},
- code = {https://github.com/Cloudslab/DLSF},
- journal = {IEEE Transactions on Mobile Computing},
- publisher = {IEEE},
- selected = {true},
- title = {{Dynamic scheduling for stochastic edge-cloud computing environments using A3C learning and residual recurrent neural networks}},
- year = {2020}
-}
-
-@article{singh2020thermosim,
- arxiv = {2004.08131},
- author = {Gill, Sukhpal Singh and Tuli, Shreshth and Toosi, Adel Nadjaran and Cuadrado, Felix and Garraghan, Peter and Bahsoon, Rami and Lutfiyya, Hanan and Sakellariou, Rizos and Rana, Omer and Dustdar, Schahram and others},
- citationlist = {http://scholar.google.com/scholar?cites=9045927220436612778&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {12},
- journal = {Journal of Systems and Software},
- pages = {110596},
- publisher = {Elsevier},
- title = {ThermoSim: Deep learning based framework for modeling and simulation of thermal-aware resource management for cloud computing environments},
- year = {2020}
-}
-
 @article{tuli2020next,
  author = {Tuli, Shreshth and Tuli, Shikhar and Wander, Gurleen and Wander, Praneet and Gill, Sukhpal Singh and Dustdar, Schahram and Sakellariou, Rizos and Rana, Omer},
  citationlist = {http://scholar.google.com/scholar?cites=7608096699247473736&as_sdt=2005&sciodt=0,5&hl=en},
@@ -138,66 +108,14 @@
  year = {2020}
 }
 
-@article{tuli2020healthfog,
- arxiv = {1911.06633},
- author = {Tuli, Shreshth and Basumatary, Nipam and Gill, Sukhpal Singh and Kahani, Mohsen and Arya, Rajesh Chand and Wander, Gurpreet Singh and Buyya, Rajkumar},
- citationlist = {http://scholar.google.com/scholar?cites=16825974800431105512&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {165},
- code = {https://github.com/Cloudslab/HealthFog},
- journal = {Future Generation Computer Systems},
- pages = {187--200},
- publisher = {Elsevier},
- selected = {true},
- title = {Healthfog: An ensemble deep learning based smart healthcare system for automatic diagnosis of heart diseases in integrated iot and fog computing environments},
- volume = {104},
- year = {2020}
-}
-
-@article{tuli2020shared,
- author = {Tuli, Shreshth and Sandhu, Rajinder and Buyya, Rajkumar},
- citationlist = {http://scholar.google.com/scholar?cites=7576190780849080001&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {8},
- journal = {Future Generation Computer Systems},
- pages = {595--606},
- pdf = {http://www.buyya.com/~raj/papers/SharedData-Aneka.pdf},
- publisher = {Elsevier},
- title = {Shared data-aware dynamic resource provisioning and task scheduling for data intensive applications on hybrid clouds using Aneka},
- volume = {106},
- year = {2020}
-}
-
 @article{tuli2020avac,
  arxiv = {2005.03077},
  author = {Tuli, Shikhar and Tuli, Shreshth},
  citationlist = {http://scholar.google.com/scholar?cites=2777597957252907747&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {1},
+ citations = {2},
  journal = {IEEE International Symposium on Circuits and Systems (ISCAS)},
  title = {AVAC: A Machine Learning based Adaptive RRAM Variability-Aware Controller for Edge Devices},
  year = {2020}
-}
-
-@inproceedings{tuli2019edgelens,
- arxiv = {1906.11056},
- author = {Tuli, Shreshth and Basumatary, Nipam and Buyya, Rajkumar},
- booktitle = {2019 4th International Conference on Information Systems and Computer Networks (ISCON)},
- citationlist = {http://scholar.google.com/scholar?cites=18377358703570297051&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {24},
- code = {https://github.com/Cloudslab/EdgeLens},
- organization = {IEEE},
- pages = {496--502},
- title = {Edgelens: Deep learning based object detection in integrated iot, fog and cloud computing environments},
- year = {2019}
-}
-
-@article{mancini2019igatelink,
- arxiv = {1911.08413},
- author = {Mancini, Riccardo and Tuli, Shreshth and Cucinotta, Tommaso and Buyya, Rajkumar},
- citationlist = {http://scholar.google.com/scholar?cites=11685469166223950204&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {6},
- code = {https://github.com/Cloudslab/iGateLink},
- journal = {Proceedings of the International Conference on Intelligent and Cloud Computing},
- title = {iGateLink: A Gateway library for linking IoT, edge, fog and cloud computing environments},
- year = {2019}
 }
 
 @article{tuli2019apex,
@@ -208,19 +126,6 @@
  code = {https://github.com/HS-Optimization-with-AI/Apex},
  journal = {Proceedings of the 11th IEEE International Conference on Cloud Computing},
  title = {APEX: Adaptive Ext4 File System for Enhanced Data Recoverability in Edge Devices},
- year = {2019}
-}
-
-@article{tiwari2019real,
- author = {Tiwari, Sakshi and Tuli, Shreshth and Ahmad, Isaar and Agarwal, Ayushi and Panda, Preeti Ranjan and Subramoney, Sreenivas},
- citationlist = {#},
- citations = {0},
- journal = {ACM Transactions on Embedded Computing Systems (TECS)},
- number = {6},
- pages = {1--24},
- publisher = {ACM New York, NY, USA},
- title = {REAL: REquest Arbitration in Last Level Caches},
- volume = {18},
  year = {2019}
 }
 
