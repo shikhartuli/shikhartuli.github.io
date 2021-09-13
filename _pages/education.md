@@ -10,16 +10,16 @@ nav: true
 ***
 
 * **Philosophical Doctorate (Ph.D.)** : 2020 - Present <br>
-	*Computing* <br>
-	Imperial College London
+	*Electrical and Computer Engineering (Min. in Cognitive Science)* <br>
+	Princeton University
 * **Bachelor of Technology (B.Tech)** : 2016 - 2020 <br>
-	*Computer Science and Engineering* <br>
+	*Electrical Engineering (Dept. Sp. in VLSI and Embedded Systems)* <br>
 	Indian Institue of Technology Delhi <br>
-	CGPA: 9.483
+	CGPA: 9.486
 * **School (Science stream)** : 2004 - 2016 <br>
 	*Physics, Chemistry, Mathematics, Computer Science* <br>
 	Amity International School, Pushp Vihar, Delhi <br>
-	CBSE score: 95.8%
+	CBSE score: 96.60%
 
 
 <hr style="border:2px solid gray">
@@ -27,40 +27,47 @@ nav: true
 ## `Scholarships and Awards`
 ***
 
-* Awarded the **President's PhD Scholarship** at the Imperial College London. Details [here](https://www.imperial.ac.uk/study/pg/fees-and-funding/scholarships/presidents-phd-scholarships/).
-* Awarded **Kalpana Chawla scholarship** by the Government of India for contributions in research and scientific development.
-* Awarded **Best Researcher Award** by ScienceFather. Details [here](https://www.youtube.com/watch?v=WMVp2M1PxDA).
-* **Institute Rank 1** for first year B. Tech at IIT Delhi with CGPA of 9.912 out of 800 enrolled students.
-* Received **\$5000 AUD grant** for developing **FogBus framework** at the Cloud Computing and Distributed Systems (CLOUDS) Laboratory, Department of Computing and Information Systems, the University of Melbourne, Australia.
-* Received **DISA** (Design Internship Summer Award) and **DIT Seed Grant** for Air Purifier Project in Summer 2017.
-* Placed among the **top 7 percent** of IIT Delhi in the first, second, fourth and seventh semesters based on academic performance.
+* Awarded **PhD Fellowship** (USD95,000) at Princeton University for the first year of study.
+* Awarded **ThinkSwiss Research Scholarship** (CHF4,800) for the summer reasearch position at EPFL, Switzerland.
+* Received **Rajiv Bhambawale Award for Best B.Tech thesis** at the undergraduate level.
+* Received **Summer Under Research Award** for outstanding research during the summer of 2018.
+* Received **Design Innovation Summer Award** and **DIT Seed Grant** for Air Purifier project in the summer of 2017.
+* Placed among the **Top 7 percent** of IIT Delhi in the first, second, fifth and seventh semesters based on academic performance.
 * Won **2nd Runner’s Up**, **Best Mechanical Design Award** and **Best Technical Report** Cash Prize for Bomb Disposal Robotics National Competition at IIT Kharagpur - December 2016
-* Secured **All India Rank 611** in Joint Entrance Exam Advanced - 2016 among 150,000 candidates.
-* Cleared **Kishore Vaigyanik Protsahan Yojana** (KVPY) National written exam and interview with All India rank 280 in 12<sup>th</sup> standard.
+* Secured **All India Rank 1624** in Joint Entrance Exam Advanced - 2016 among 150,000 candidates.
 * Received **Best Alliance award** and **Rockwell Collin's Innovation award** for National Robotics Competition - First Tech Challenge in 10<sup>th</sup> standard. Competition [link](https://www.firstinspires.org/robotics/ftc).
 * Awarded **Second Runners Up** position and **Award for Best Marketing** in F1 in schools national competition in which students design, manufacture and race with miniature Formula 1 cars. Team [Facebook page](https://www.facebook.com/iotans). 
-* Awarded **Dhananjay Mohan Cup** for scientific innovation and creativity by school
+* Awarded **Chairperson's Trophy** for being the **School Topper** with 96.60\% in CBSE AISSCE XII standard.
+* Awarded **All Rounder** for VIII and IX standard.
 
 <hr style="border:2px solid gray">
+
+## `Teaching Appointments`
+***
+
+* Head Teaching Assistant at the Department of Electrical and Computer Engineering, Princeton University. *September 2021 - Present*.
+* Teaching Assistant at the Department of Electrical Engineering, Indian Institute of Technology Delhi. *July 2019 - November 2019*.
+
+<hr style="border:2px solid gray">
+
+## `Research Appointments`
+***
+
+* Research Associate at the [Computational Cognitive Science (CoCoSci) Laboratory](https://cocosci.princeton.edu/index.php), Princeton University. *January 2021 - July 2021*.
+* Research Associate at the [Natural and Artificial Intelligence through Transistors and Spintronics (NAITS) group](https://web.iitd.ac.in/~debanjan/). *January 2020 - July 2020*.
+* Research Associate at the [Embedded Systems Laboratory (ESL)](https://www.epfl.ch/labs/esl/), EPFL, Switzerland. *May 2019 - July 2019*.
+* Remote Research Assistant at the [Cloud Computing and Distributed Systems (CLOUDS) Laboratory](http://www.cloudbus.org/), University of Melbourne, Australia. *May 2018 - July 2018*.
 
 ## `Work Experience`
 ***
 
-* Research Consultant at Manjrasoft India Pvt. Ltd. *August 2019 - Present*.
-* Research Consultant at Coral Telecom Ltd. *April 2016 - Present*.
-
-<hr style="border:2px solid gray">
-
-## `Talks and Workshops`
-***
-
-* Talk given with keynote speaker Prof. Rajkumar Buyya at 4th IEEE International Conference on Internet of Things: Smart Innovation & Usage at Krishna Engineering College, Ghaziabad, India *18 April 2019*. Topic - Future of Fog and Cloud computing systems.
-* Workshop and tutorial on Aneka PaaS given at Indira Gandhi Institute of Technology, Sarang, Orissa, India on *25-27 September, 2019*.
+* Founder and CEO at [Qubit Inc.](https://www.qubitinc.in/) *January 2020 - Present*.
+* Research Consultant at [Coral Telecom Ltd.](https://www.coraltele.com/) *April 2016 - Present*.
 
 <hr style="border:2px solid gray">
 
 ## `Technical Skills`
 ***
 
-* **Programming Languages:** C, C++, Perl, Python, Java, JavaScript, OCaml, SML, Prolog, VHDL, Verilog, C#, F#, Visual Basic, Matlab, SQL, ARM, UML, HTML, CSS, PHP.
-* **Frameworks:** PyTorch, Tensorflow, FogBus, Aneka, CloudSim, iFogSim, LibFUSE, Intel PIN, Vivado, Eagle, .NET, Doxygen, FreeSwitch - SIP Manager, Git GEM5, xv6, TKinter, Qt, OpenGL, OpenCV, Arduino, Solidworks, ANSYS, Mininet, Yocto, Apache Airflow, Apache Nifi, Apache Kafka, xOpera, Ansible, TOSCA.
+* **Programming Languages:** Python, MATLAB, Verilog-A, PEL, Java, C++, Verilog, x86 and ARM assembly, HTML.
+* **Frameworks:** PyTorch, Tensorflow, Vivado, OpenCV, Arduino, Altium Designer, Eagle, PSIM, AnSYS HFSS, Keysight EasyEXPERT, Keysight IC-CAP, Origin Pro, Adobe Photoshop, Adobe Illustrator, Solidworks, Cinema 4D.
