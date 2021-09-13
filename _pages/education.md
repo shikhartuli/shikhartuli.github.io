@@ -58,6 +58,8 @@ nav: true
 * Research Associate at the [Embedded Systems Laboratory (ESL)](https://www.epfl.ch/labs/esl/), EPFL, Switzerland. *May 2019 - July 2019*.
 * Remote Research Assistant at the [Cloud Computing and Distributed Systems (CLOUDS) Laboratory](http://www.cloudbus.org/), University of Melbourne, Australia. *May 2018 - July 2018*.
 
+<hr style="border:2px solid gray">
+
 ## `Work Experience`
 ***
 
