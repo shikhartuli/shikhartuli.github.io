@@ -10,21 +10,15 @@ profile:
   address: >
     <p>Room B321, E-Quad</p>
     <p>Princeton University</p>
-    <p>South Kensington</p>
     <p>Princeton</p>
     <p>NJ, 08544</p>
 
-news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshreshthtuli.github.io&count_bg=%23C746C0&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://shreshthtuli.github.io/)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshikhartuli.github.io&count_bg=%23C746C0&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://shikhartuli.github.io)
 
-I am a `President's Ph.D. scholar` at the Department of Computing, Imperial College London under the supervision of [Giuliano Casale](http://wp.doc.ic.ac.uk/gcasale/) and [Nick Jennings](https://www.imperial.ac.uk/people/n.jennings). My main research areas are Deep Learning, Fog Computing, Internet of Things and Blockchain. Prior to this I was an undergraduate student at the Department of Computer Science and Engineering at Indian Institute of Technology - Delhi, India. I am also a co-founder of Qubit Inc. company which works on providing next generation solutions for industrial problems. I am a national level Kishore Vaigyanik Protsahan Yojana (KVPY) scholarship holder for excellence in science and innovation. I have worked as a visiting researcher at the Cloud Computing and Distributed Systems (CLOUDS) Laboratory, Department of Computing and Information Systems, the University of Melbourne, Australia. 
+I am a Ph.D. candidate at the Department of Electrical and Computer Engineering, Princeton University under the supervision of [Niraj K. Jha](https://www.princeton.edu/~jha/). My main research areas are Machine Learning, Edge Computing, Brain-inspired Computing, Non-Volatile Memories and Nanoelectronics. Prior to this I was an undergraduate student at the Department of Electrical Engineering at the Indian Institute of Technology Delhi. I am also the founder and CEO of [Qubit Inc.](https://www.qubitinc.in/), a company which works on providing next generation solutions for industrial problems. I have worked as a visiting researcher at the Embedded Systems Laboratory (ESL), Institute of Electrical Engineering at EPFL, Switzerland. 
 
-Read more about my research projects [here](/projects/). My publications can be seen [here](/publications/). I have also reviewed papers in several conferences related to parallel and distributed computing like IEEE IM, ICDCS, CCGrid and IPDPS. I have also reviewed for top journals including IEEE IoT, Acess, TCC, TII, TDSC, and am a top reviewer for the Wiley SPE journal. View my CV [here](https://shreshthtuli.github.io/assets/pdf/CV.pdf){:target="_blank"}.
-
-
-
-
+My publications can be seen [here](/publications/). I have also reviewed for top journals and conferences including IEEE TCAD, SPE and AAAI. View my CV [here](https://shikhartuli.github.io/assets/pdf/CV.pdf){:target="_blank"}.
