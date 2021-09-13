@@ -37,7 +37,7 @@ nav: true
 * Secured **All India Rank 1624** in Joint Entrance Exam Advanced - 2016 among 150,000 candidates.
 * Received **Best Alliance award** and **Rockwell Collin's Innovation award** for National Robotics Competition - First Tech Challenge in 10<sup>th</sup> standard. Competition [link](https://www.firstinspires.org/robotics/ftc).
 * Awarded **Second Runners Up** position and **Award for Best Marketing** in F1 in schools national competition in which students design, manufacture and race with miniature Formula 1 cars. Team [Facebook page](https://www.facebook.com/iotans). 
-* Awarded **Chairperson's Trophy** for being the **School Topper** with 96.60\% in CBSE AISSCE XII standard.
+* Awarded **Chairperson's Trophy** for being the **School Topper** with 96.60% in CBSE AISSCE XII standard.
 * Awarded **All Rounder** for VIII and IX standard.
 
 <hr style="border:2px solid gray">
