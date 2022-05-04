@@ -14,7 +14,7 @@ This is an introductory course on Machine Learning, taught by `Prof. Niraj K. Jh
 
 <hr style="border:2px solid gray">
 
-## `Indian Institute of Technology Delhi (2019 - 2020)`
+## `Indian Institute of Technology Delhi (2016 - 2020)`
 ***
 
 ### Introduction to Electrical Engineering
