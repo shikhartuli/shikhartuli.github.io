@@ -45,7 +45,7 @@ nav: true
 ## `Teaching Appointments`
 ***
 
-* Head Teaching Assistant at the Department of Electrical and Computer Engineering, Princeton University. *September 2021 - Present*.
+* Head Teaching Assistant at the Department of Electrical and Computer Engineering, Princeton University. *September 2021 - December 2021*.
 * Teaching Assistant at the Department of Electrical Engineering, Indian Institute of Technology Delhi. *July 2019 - November 2019*.
 
 <hr style="border:2px solid gray">
