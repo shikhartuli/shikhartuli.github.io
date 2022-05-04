@@ -9,8 +9,6 @@ last_name: Tuli
 email: shikhartuli98@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a PhD candidate at the Department of Electrical and Computer Enineering, Princeton University. This is my personal webpage.
-footer_text: >
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
