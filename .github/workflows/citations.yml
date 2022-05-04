@@ -9,7 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
-        - uses: actions/checkout@v1
+        - uses: actions/checkout@v2
+          with:
+            persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+            fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
         - name: Install setup tools
           run: sudo apt-get install python3-setuptools
         - name: Install wheel
@@ -38,6 +41,9 @@ jobs:
             source ~/.bashrc
             sudo gem install jekyll bundler
             bundle install
+        - name: Pull branch
+          run: |
+            git pull
         - name: Rebuild page
           run: |
             sudo chmod +x bin/deployCI
@@ -52,5 +58,5 @@ jobs:
           uses: ad-m/github-push-action@master
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            force: true
+            force: false
             branch: gh-pages
