@@ -27,6 +27,7 @@ nav: true
 ## `Scholarships and Awards`
 ***
 
+* Received **Pramod Subramanyan \*17 Early Career Graduate Award** at Princeton University.
 * Awarded **PhD Fellowship** (USD95,000) at Princeton University for the first year of study.
 * Awarded **ThinkSwiss Research Scholarship** (CHF4,800) for the summer reasearch position at EPFL, Switzerland.
 * Received **Rajiv Bhambawale Award for Best B.Tech thesis** at the undergraduate level.
