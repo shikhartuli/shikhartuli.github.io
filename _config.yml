@@ -56,8 +56,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: 
+blog_name: '#engineeringlife' # your blog must have a name for it to show up in the nav bar
+blog_description: my life experiences as an electrical engineer!
 permalink: /blog/:year/:title/
 
 # Pagination
