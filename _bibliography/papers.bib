@@ -1,12 +1,25 @@
 ---
 ---
 
+@article{tuli2022dini,
+ abstract = {The edge computing paradigm has recently drawn significant attention from industry and academia. Due to the advantages in quality-of-service metrics, namely, latency, bandwidth, energy efficiency, privacy, and security, deploying artificial intelligence (AI) models at the network edge has attracted widespread interest. Edge-AI has seen applications in diverse domains that involve large amounts of data. However, poor dataset quality plagues this compute regime owing to numerous data corruption sources, including missing data. As such systems are increasingly being deployed in mission-critical applications, mitigating the effects of corrupted data becomes important. In this work, we propose a strategy based on data imputation using neural inversion, DINI. It trains a surrogate model and runs data imputation in an interleaved fashion. Unlike previous works, DINI is a model-agnostic framework applicable to diverse deep learning architectures. DINI outperforms state-of-the-art methods by at least 10.7% in average imputation error. Applying DINI to mission-critical applications can increase prediction accuracy to up to 99% (F1 score of 0.99), resulting in significant gains compared to baseline methods.},
+ author = {Tuli, Shikhar and Jha, Niraj K.},
+ citationlist = {#},
+ citations = {0},
+ code = {https://github.com/jha-lab/dini},
+ journal = {Nature Scientific Reports},
+ selected = {true},
+ title = {DINI: Data Imputation using Neural Inversion for Edge Applications},
+ year = {2022}
+}
 @article{tuli2022flexibert,
  abstract = {The existence of a plethora of language models makes the problem of selecting the best one for a custom task challenging. Most state-of-the-art methods leverage transformer-based models (e.g., BERT) or their variants. Training such models and exploring their hyperparameter space, however, is computationally expensive. Prior work proposes several neural architecture search (NAS) methods that employ performance predictors (e.g., surrogate models) to address this issue; however, analysis has been limited to homogeneous models that use fixed dimensionality throughout the network. This leads to sub-optimal architectures. To address this limitation, we propose a suite of heterogeneous and flexible models, namely FlexiBERT, that have varied encoder layers with a diverse set of possible operations and different hidden dimensions. For better-posed surrogate modeling in this expanded design space, we propose a new graph-similarity-based embedding scheme. We also propose a novel NAS policy, called BOSHNAS, that leverages this new scheme, Bayesian modeling, and second-order optimization, to quickly train and use a neural surrogate model to converge to the optimal architecture. A comprehensive set of experiments shows that the proposed policy, when applied to the FlexiBERT design space, pushes the performance frontier upwards compared to traditional models. FlexiBERT-Mini, one of our proposed models, has 3% fewer parameters than BERT-Mini and achieves 8.9% higher GLUE score. A FlexiBERT model with equivalent performance as the best homogeneous model achieves 2.6x smaller size. FlexiBERT-Large, another proposed model, achieves state-of-the-art results, outperforming the baseline models by at least 5.7% on the GLUE benchmark.},
  arxiv = {2205.11656},
  author = {Tuli, Shikhar and Dedhia, Bhishma and Tuli, Shreshth and Jha, Niraj K.},
  citationlist = {#},
  citations = {0},
+ code = {https://github.com/jha-lab/txf_design-space},
+ journal = {Journal of Artificial Intelligence Research},
  selected = {true},
  title = {FlexiBERT: Are Current Transformer Architectures too Homogeneous and Rigid?},
  year = {2022}
