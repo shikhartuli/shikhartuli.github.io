@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{tuli2022codebench,
+ abstract = {Recently, automated co-design of machine learning (ML) models and accelerator architectures has attracted significant attention from both the industry and academia. However, most co-design frameworks either explore a limited search space or employ suboptimal exploration techniques for simultaneous design decision investigations of the ML model and the accelerator. Furthermore, training the ML model and simulating the accelerator performance is computationally expensive. To address these limitations, this work proposes a novel neural architecture and hardware accelerator co-design framework, called CODEBench. It comprises two new benchmarking sub-frameworks, CNNBench and AccelBench, which explore expanded design spaces of convolutional neural networks (CNNs) and CNN accelerators. CNNBench leverages an advanced search technique, BOSHNAS, to efficiently train a neural heteroscedastic surrogate model to converge to an optimal CNN architecture by employing second-order gradients. AccelBench performs cycle-accurate simulations for diverse accelerator architectures in a vast design space. With the proposed co-design method, called BOSHCODE, our best CNN-accelerator pair achieves 1.4% higher accuracy on the CIFAR-10 dataset compared to the state-of-the-art pair while enabling 59.1% lower latency and 60.8% lower energy consumption. On the ImageNet dataset, it achieves 3.7% higher Top1 accuracy at 43.8% lower latency and 11.2% lower energy consumption. CODEBench outperforms the state-of-the-art framework, i.e., Auto-NBA, by achieving 1.5% higher accuracy and 34.7x higher throughput while enabling 11.0x lower energy-delay product (EDP) and 4.0x lower chip area on CIFAR-10.},
+ arxiv = {2212.03965},
+ author = {Tuli, Shikhar and Li, Chia-Hao and Sharma, Ritvik and Jha, Niraj K.},
+ citationlist = {#},
+ citations = {0},
+ code = {https://github.com/jha-lab/codebench},
+ journal = {ACM Transactions on Embedded Computing Systems},
+ selected = {true},
+ title = {CODEBench: A Neural Architecture and Hardware Accelerator Co-Design Framework},
+ year = {2022}
+}
 @article{tuli2022dini,
  abstract = {The edge computing paradigm has recently drawn significant attention from industry and academia. Due to the advantages in quality-of-service metrics, namely, latency, bandwidth, energy efficiency, privacy, and security, deploying artificial intelligence (AI) models at the network edge has attracted widespread interest. Edge-AI has seen applications in diverse domains that involve large amounts of data. However, poor dataset quality plagues this compute regime owing to numerous data corruption sources, including missing data. As such systems are increasingly being deployed in mission-critical applications, mitigating the effects of corrupted data becomes important. In this work, we propose a strategy based on data imputation using neural inversion, DINI. It trains a surrogate model and runs data imputation in an interleaved fashion. Unlike previous works, DINI is a model-agnostic framework applicable to diverse deep learning architectures. DINI outperforms state-of-the-art methods by at least 10.7% in average imputation error. Applying DINI to mission-critical applications can increase prediction accuracy to up to 99% (F1 score of 0.99), resulting in significant gains compared to baseline methods.},
  author = {Tuli, Shikhar and Jha, Niraj K.},
@@ -102,7 +114,6 @@
  journal = {IEEE Transactions on Electron Devices},
  number = {1},
  pages = {4-10},
- selected = {true},
  title = {Characterization and Modeling of Hot Carrier Degradation in N-Channel Gate-All-Around Nanowire FETs},
  volume = {67},
  year = {2020}
