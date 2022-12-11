@@ -39,7 +39,7 @@ jobs:
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
-            sudo gem install jekyll bundler
+            sudo gem install jekyll bundler -v 2.3.25
             bundle install
         - name: Rebuild page
           run: |
