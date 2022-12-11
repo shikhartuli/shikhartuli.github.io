@@ -1,9 +1,11 @@
 name: citations
 
-on: push
-# on:
-#   schedule:
-#     - cron: '0 1 * * 0'
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 1 * * 0'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
