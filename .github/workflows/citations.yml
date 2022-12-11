@@ -13,6 +13,10 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
         - uses: actions/checkout@v2
+        - name: Setup Ruby
+          uses: actions/setup-ruby@v1
+          with:
+            ruby-version: '2.7'
         - name: Install setup tools
           run: sudo apt-get install python3-setuptools
         - name: Install wheel
@@ -39,7 +43,7 @@ jobs:
             echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
             echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
             source ~/.bashrc
-            sudo gem install jekyll bundler -v 2.3.25
+            sudo gem install jekyll bundler
             bundle install
         - name: Rebuild page
           run: |
