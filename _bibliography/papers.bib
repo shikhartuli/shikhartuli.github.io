@@ -1,6 +1,27 @@
 ---
 ---
 
+@article{tuli2023transcode,
+ abstract = {Automated co-design of machine learning models and evaluation hardware is critical for efficiently deploying such models at scale. Despite the state-of-the-art performance of transformer models, they are not yet ready for execution on resource-constrained hardware platforms. High memory requirements and low parallelizability of the transformer architecture exacerbate this problem. Recently-proposed accelerators attempt to optimize the throughput and energy consumption of transformer models. However, such works are either limited to a one-sided search of the model architecture or a restricted set of off-the-shelf devices. Furthermore, previous works only accelerate model inference and not training, which incurs substantially higher memory and compute resources, making the problem even more challenging. To address these limitations, this work proposes a dynamic training framework, called DynaProp, that speeds up the training process and reduces memory consumption. DynaProp is a low-overhead pruning method that prunes activations and gradients at runtime. To effectively execute this method on hardware for a diverse set of transformer architectures, we propose ELECTOR, a framework that simulates transformer inference and training on a design space of accelerators. We use this simulator in conjunction with the proposed co-design technique, called TransCODE, to obtain the best-performing models with high accuracy on the given task and minimize latency, energy consumption, and chip area. The obtained transformer-accelerator pair achieves 0.3% higher accuracy than the state-of-the-art pair while incurring 5.2x lower latency and 3.0x lower energy consumption.},
+ arxiv = {2303.14882},
+ author = {Tuli, Shikhar and Jha, Niraj K.},
+ citations = {0},
+ journal = {arXiv Preprint},
+ selected = {true},
+ title = {TransCODE: Co-design of Transformers and Accelerators for Efficient Training and Inference},
+ year = {2023}
+}
+@article{tuli2023edgetran,
+ abstract = {Automated design of efficient transformer models has recently attracted significant attention from industry and academia. However, most works only focus on certain metrics while searching for the best-performing transformer architecture. Furthermore, running traditional, complex, and large transformer models on low-compute edge platforms is a challenging problem. In this work, we propose a framework, called ProTran, to profile the hardware performance measures for a design space of transformer architectures and a diverse set of edge devices. We use this profiler in conjunction with the proposed co-design technique to obtain the best-performing models that have high accuracy on the given task and minimize latency, energy consumption, and peak power draw to enable edge deployment. We refer to our framework for co-optimizing accuracy and hardware performance measures as EdgeTran. It searches for the best transformer model and edge device pair. Finally, we propose GPTran, a multi-stage block-level grow-and-prune post-processing step that further improves accuracy in a hardware-aware manner. The obtained transformer model is 2.8 smaller and has a 0.8% higher GLUE score than the baseline (BERT-Base). Inference with it on the selected edge device enables 15.0% lower latency, 10.0x lower energy, and 10.8x lower peak power draw compared to an off-the-shelf GPU.},
+ arxiv = {2303.13745},
+ author = {Tuli, Shikhar and Jha, Niraj K.},
+ citationlist = {https://scholar.google.com/scholar?cites=16492600148356243764&as_sdt=5,31&sciodt=0,31&hl=en},
+ citations = {1},
+ journal = {arXiv Preprint},
+ selected = {true},
+ title = {EdgeTran: Co-designing Transformers for Efficient Inference on Mobile Edge Platforms},
+ year = {2023}
+}
 @article{tuli2023acceltran,
  abstract = {Self-attention-based transformer models have achieved tremendous success in the domain of natural language processing. Despite their efficacy, accelerating the transformer is challenging due to its quadratic computational complexity and large activation sizes. Existing transformer accelerators attempt to prune its tokens to reduce memory access, albeit with high compute overheads. Moreover, previous works directly operate on large matrices involved in the attention operation, which limits hardware utilization. In order to address these challenges, this work proposes a novel dynamic inference scheme, DynaTran, which prunes activations at runtime with low overhead, substantially reducing the number of ineffectual operations. This improves the throughput of transformer inference. We further propose tiling the matrices in transformer operations along with diverse dataflows to improve data reuse, thus enabling higher energy efficiency. To effectively implement these methods, we propose AccelTran, a novel accelerator architecture for transformers. Extensive experiments with different models and benchmarks demonstrate that DynaTran achieves higher accuracy than the state-of-the-art top-k hardware-aware pruning strategy while attaining up to 1.2x higher sparsity. One of our proposed accelerators, AccelTran-Edge, achieves 330Kx higher throughput with 93Kx lower energy requirement when compared to a Raspberry Pi device. On the other hand, AccelTran-Server achieves 5.73x higher throughput and 3.69x lower energy consumption compared to the state-of-the-art transformer co-processor, Energon.},
  arxiv = {2302.14705},
@@ -17,7 +38,7 @@
  arxiv = {2212.03965},
  author = {Tuli, Shikhar and Li, Chia-Hao and Sharma, Ritvik and Jha, Niraj K.},
  citationlist = {https://scholar.google.com/scholar?cites=10680338124137831927&as_sdt=5,31&sciodt=0,31&hl=en},
- citations = {0},
+ citations = {3},
  code = {https://github.com/jha-lab/codebench},
  journal = {ACM Transactions on Embedded Computing Systems},
  selected = {true},
