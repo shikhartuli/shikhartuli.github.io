@@ -18,13 +18,9 @@ nav: false
 
 ***
 
-<div align="center">
-
-  ![Python Version](https://img.shields.io/badge/python-v3.10-blue)
-  ![PyTorch](https://img.shields.io/badge/pytorch-v2.0.1-e74a2b)
-  ![HFTransformers](https://img.shields.io/badge/transformers-v4.30.0-8a2be2)
-
-</div>
+![Python Version](https://img.shields.io/badge/python-v3.10-blue)
+![PyTorch](https://img.shields.io/badge/pytorch-v2.0.1-e74a2b)
+![HFTransformers](https://img.shields.io/badge/transformers-v4.30.0-8a2be2)
 
 <br>
 
