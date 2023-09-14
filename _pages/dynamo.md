@@ -43,13 +43,14 @@ DynaMo is a suite of multi-token prediction models. Our models are instantiated 
 We implement training using the modified CLM objective that trains each token head _independently_ using the following loss function:
 
 $$\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{T - n + 1} \log p(\rvx_{t+n}^j|\rvx_{1:t}^j)$$
-for the $$n^{th}$$ token head.
+
+for the $n^{th}$ token head.
 
 ## Multi-token Generation
 
 We propose three novel techniques to execute multi-token generation using the DynaMo models:
 
-- **Dynamic back-off**: We back-off to lower-order $$n$$-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
+- **Dynamic back-off**: We back-off to lower-order $n$-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
 - **Adaptive thresholding**: We implement adaptive thresholding of the estimated joint probability distribution to further boost performance.
 - **Co-occurrence weighted masking**: To fix the estimated joint probability distribution that makes the _independence_ assumption, we apply co-occurrence weighted masking to filter out improbable token combinations.
 
@@ -72,10 +73,10 @@ We finetune our models a filtered Alpaca dataset. This gives us chat versions of
 
 ## Cite this work
 
-Cite our work using the following bitex entry:
+Cite our work using the following bibtex entry:
 ```bibtex
 @article{tuli2023dynamo,
-  title={{DynaMo}: Why Predict Just One Token at a Time?},
+  title={DynaMo: Why Predict Just One Token at a Time?},
   author={Tuli, Shikhar and Lin, Chi-Heng and Hsu, Yen-Chang and Jha, Niraj K, and Shen, Yilin and Jia, Hongxia},
   journal={arXiv preprint arXiv:23XX.XXXXX},
   year={2023}
