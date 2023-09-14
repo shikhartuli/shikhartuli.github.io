@@ -24,7 +24,7 @@ nav: false
   <a href=""><img src="https://img.shields.io/badge/transformers-v4.30.0-8a2be2" alt="Huggingface"></a>
   <a href=""><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshikhartuli.github.io%2Fdynamo&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" alt="Hits"></a>
   <br>
-  <a href=""><img src="https://img.shields.io/badge/paper-yellow" alt="Paper"></a>
+  <a href=""><img src="https://img.shields.io/badge/arXiv-23XX.XXXXX-b31b1b.svg" alt="arXiv"></a>
 </div>
 
 <br>
