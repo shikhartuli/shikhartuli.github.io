@@ -42,15 +42,15 @@ DynaMo is a suite of multi-token prediction models. Our models are instantiated 
 
 We implement training using the modified CLM objective that trains each token head _independently_ using the following loss function:
 
-$$\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{T - n + 1} \log p(\rvx_{t+n}^j|\rvx_{1:t}^j)$$
+$$\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{T - n + 1} \log p(\mathbf{x}_{t+n}^j|\mathbf{x}_{1:t}^j)$$
 
-for the $n^{th}$ token head.
+for the n<sup>th</sup> token head.
 
 ## Multi-token Generation
 
 We propose three novel techniques to execute multi-token generation using the DynaMo models:
 
-- **Dynamic back-off**: We back-off to lower-order $n$-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
+- **Dynamic back-off**: We back-off to lower-order n-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
 - **Adaptive thresholding**: We implement adaptive thresholding of the estimated joint probability distribution to further boost performance.
 - **Co-occurrence weighted masking**: To fix the estimated joint probability distribution that makes the _independence_ assumption, we apply co-occurrence weighted masking to filter out improbable token combinations.
 
@@ -61,7 +61,7 @@ We finetune our models a filtered Alpaca dataset. This gives us chat versions of
 <div align="center">
   <img src="{{ site.baseurl }}/assets/img/dynamo-7p3b-t3.gif" alt="DynaMo-7.3B-T3-Chat vs. Pythia-6.9B" width="80%" />
   <br>
-  <div align="center" width="80%">
+  <div align="center" width="100%">
     <em>DynaMo on Pythia-6.9B.</em>
   </div>
   <br>
