@@ -42,7 +42,7 @@ DynaMo is a suite of multi-token prediction models. Our models are instantiated 
 
 ## Training
 
-We implement training using the modified CLM objective that trains each token head _independently_ using the following loss function:
+We implement training using a modified CLM objective that trains each token head _independently_ using the following loss function:
 
 $$\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{T - n + 1} \log p(\mathbf{x}_{t+n}^j|\mathbf{x}_{1:t}^j)$$
 
@@ -58,7 +58,7 @@ We propose three novel techniques to execute multi-token generation using the Dy
 
 ## Instruction Finetuning
 
-We finetune our models a filtered Alpaca dataset. This gives us chat versions of our multi-token models.
+We finetune our models on a filtered Alpaca dataset. This gives us chat versions of our multi-token models.
 
 <div align="center">
   <img src="{{ site.baseurl }}/assets/img/dynamo-7p3b-t3.gif" alt="DynaMo-7.3B-T3-Chat vs. Pythia-6.9B" width="100%" />
