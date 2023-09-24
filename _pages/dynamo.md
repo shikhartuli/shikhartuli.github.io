@@ -32,7 +32,7 @@ nav: false
 DynaMo is a suite of multi-token prediction models. Our models are instantiated using the [Pythia](https://github.com/EleutherAI/pythia) weights. Our models parallely generate multiple tokens using independent token heads.
 
 <div align="center">
-  <img src="{{ site.baseurl }}/assets/img/multi_token_intro.png" alt="DynaMo Multi-token Model" width="80%" />
+  <img src="{{ site.baseurl }}/assets/img/multi_token_intro2.png" alt="DynaMo Multi-token Model" width="80%" />
   <br>
   <div align="center" width="80%">
     <em>Multi-token prediction in DynaMo. (a) Traditional autoregressive prediction (one token at a time) requires three forward passes. (b) Non-autoregressive multi-token prediction requires only one forward pass.</em>
@@ -44,17 +44,26 @@ DynaMo is a suite of multi-token prediction models. Our models are instantiated 
 
 We implement training using a modified CLM objective that trains each token head _independently_ using the following loss function:
 
-$$\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{T - n + 1} \log p(\mathbf{x}_{t+n}^j|\mathbf{x}_{1:t}^j)$$
+$$\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{L - n + 1} \log p(\mathbf{x}_{t+n}^j|\mathbf{x}_{1:t}^j)$$
 
-for the n<sup>th</sup> token head.
+for the n<sup>th</sup> token head. Here, $N$ is the number of sequences in the training set and the length of the j<sup>th</sup> sequence is $L$. 
 
 ## Multi-token Generation
 
+<div align="center">
+  <img src="{{ site.baseurl }}/assets/img/flowchart2.png" alt="DynaMo Text Generation" width="80%" />
+  <br>
+  <div align="center" width="80%">
+    <em>Multi-token prediction in DynaMo. (a) Traditional autoregressive prediction (one token at a time) requires three forward passes. (b) Non-autoregressive multi-token prediction requires only one forward pass.</em>
+  </div>
+  <br>
+</div>
+
 We propose three novel techniques to execute multi-token generation using the DynaMo models:
 
-- **Dynamic back-off**: We back-off to lower-order n-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
-- **Adaptive thresholding**: We implement adaptive thresholding of the estimated joint probability distribution to further boost performance.
 - **Co-occurrence weighted masking**: To fix the estimated joint probability distribution that makes the _independence_ assumption, we apply co-occurrence weighted masking to filter out improbable token combinations.
+- **Adaptive thresholding**: We implement adaptive thresholding of the estimated joint probability distribution to further boost performance.
+- **Dynamic back-off**: We back-off to lower-order n-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
 
 ## Instruction Finetuning
 
