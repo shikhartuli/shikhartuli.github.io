@@ -68,7 +68,7 @@ We propose three novel techniques to execute multi-token generation using the Dy
 We show comparisons with other text generation methods below.
 
 <div align="center">
-  <img src="{{ site.baseurl }}/assets/img/dynamo_comparisons.png" alt="DynaMo Comparisons" width="100%" />
+  <img src="{{ site.baseurl }}/assets/img/dynamo_comparisons.png" alt="DynaMo Comparisons" width="80%" />
   <br>
   <div align="center" width="80%">
     <em>Comparisons with other approaches. *The skeleton-of-though decoding work evaluates models of different sizes.</em>
