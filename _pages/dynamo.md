@@ -65,6 +65,17 @@ We propose three novel techniques to execute multi-token generation using the Dy
 - **Adaptive thresholding**: We implement adaptive thresholding of the estimated joint probability distribution to further boost performance.
 - **Dynamic back-off**: We back-off to lower-order n-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.
 
+We show comparisons with other text generation methods below.
+
+<div align="center">
+  <img src="{{ site.baseurl }}/assets/img/dynamo_comparisons.png" alt="DynaMo Comparisons" width="100%" />
+  <br>
+  <div align="center" width="80%">
+    <em>Comparisons with other approaches. *The skeleton-of-though decoding work evaluates models of different sizes.</em>
+  </div>
+  <br>
+</div>
+
 ## Instruction Finetuning
 
 We finetune our models on a filtered Alpaca dataset. This gives us chat versions of our multi-token models.
