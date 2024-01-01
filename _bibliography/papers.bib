@@ -1,6 +1,16 @@
 ---
 ---
 
+@article{tuli2023edgetran,
+ abstract = {Automated design of efficient transformer models has recently attracted significant attention from industry and academia. However, most works only focus on certain metrics while searching for the best-performing transformer architecture. Furthermore, running traditional, complex, and large transformer models on low-compute edge platforms is a challenging problem. In this work, we propose a framework, called ProTran, to profile the hardware performance measures for a design space of transformer architectures and a diverse set of edge devices. We use this profiler in conjunction with the proposed co-design technique to obtain the best-performing models that have high accuracy on the given task and minimize latency, energy consumption, and peak power draw to enable edge deployment. We refer to our framework for co-optimizing accuracy and hardware performance measures as EdgeTran. It searches for the best transformer model and edge device pair. Finally, we propose GPTran, a multi-stage block-level grow-and-prune post-processing step that further improves accuracy in a hardware-aware manner. The obtained transformer model is 2.8 smaller and has a 0.8% higher GLUE score than the baseline (BERT-Base). Inference with it on the selected edge device enables 15.0% lower latency, 10.0x lower energy, and 10.8x lower peak power draw compared to an off-the-shelf GPU.},
+ author = {Tuli, Shikhar and Jha, Niraj K.},
+ citationlist = {http://scholar.google.com/scholar?cites=16492600148356243764&as_sdt=2005&sciodt=0,5&hl=en},
+ citations = {3},
+ journal = {IEEE Transactions on Mobile Computing},
+ selected = {true},
+ title = {EdgeTran: Device-Aware Co-Search Of Transformers for Efficient Inference on Mobile Edge Platforms},
+ year = {2023}
+}
 @article{tuli2023breathe,
  abstract = {Researchers constantly strive to explore larger and more complex search spaces in various scientific studies and physical experiments. However, such investigations often involve sophisticated simulators or time-consuming experiments that make exploring and observing new design samples challenging. Previous works that target such applications are typically sample-inefficient and restricted to vector search spaces. To address these limitations, this work proposes a constrained multi-objective optimization (MOO) framework, called BREATHE, that searches not only traditional vector-based design spaces but also graph-based design spaces to obtain best-performing graphs. It leverages second-order gradients and actively trains a heteroscedastic surrogate model for sample-efficient optimization. In a single-objective vector optimization application, it leads to 64.1% higher performance than the next-best baseline, random forest regression. In graph-based search, BREATHE outperforms the next-best baseline, i.e., a graphical version of Gaussian-process-based Bayesian optimization, with up to 64.9% higher performance. In a MOO task, it achieves up to 21.9× higher hypervolume than the state-of-the-art method, multi-objective Bayesian optimization (MOBOpt). BREATHE also outperforms the baseline methods on most standard MOO benchmark applications.},
  arxiv = {2308.08666},
@@ -18,17 +28,6 @@
  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
  selected = {true},
  title = {TransCODE: Co-design of Transformers and Accelerators for Efficient Training and Inference},
- year = {2023}
-}
-@article{tuli2023edgetran,
- abstract = {Automated design of efficient transformer models has recently attracted significant attention from industry and academia. However, most works only focus on certain metrics while searching for the best-performing transformer architecture. Furthermore, running traditional, complex, and large transformer models on low-compute edge platforms is a challenging problem. In this work, we propose a framework, called ProTran, to profile the hardware performance measures for a design space of transformer architectures and a diverse set of edge devices. We use this profiler in conjunction with the proposed co-design technique to obtain the best-performing models that have high accuracy on the given task and minimize latency, energy consumption, and peak power draw to enable edge deployment. We refer to our framework for co-optimizing accuracy and hardware performance measures as EdgeTran. It searches for the best transformer model and edge device pair. Finally, we propose GPTran, a multi-stage block-level grow-and-prune post-processing step that further improves accuracy in a hardware-aware manner. The obtained transformer model is 2.8 smaller and has a 0.8% higher GLUE score than the baseline (BERT-Base). Inference with it on the selected edge device enables 15.0% lower latency, 10.0x lower energy, and 10.8x lower peak power draw compared to an off-the-shelf GPU.},
- arxiv = {2303.13745},
- author = {Tuli, Shikhar and Jha, Niraj K.},
- citationlist = {http://scholar.google.com/scholar?cites=16492600148356243764&as_sdt=2005&sciodt=0,5&hl=en},
- citations = {3},
- journal = {arXiv Preprint},
- selected = {true},
- title = {EdgeTran: Co-designing Transformers for Efficient Inference on Mobile Edge Platforms},
  year = {2023}
 }
 @article{tuli2023acceltran,
