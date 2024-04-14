@@ -9,7 +9,7 @@ nav: true
 ## `Education`
 ***
 
-* **Philosophical Doctorate (Ph.D.)** : 2020 - Present <br>
+* **Philosophical Doctorate (Ph.D.)** : 2020 - 2023 <br>
 	*Electrical and Computer Engineering (Min. in Cognitive Science)* <br>
 	Princeton University
 * **Bachelor of Technology (B.Tech)** : 2016 - 2020 <br>
@@ -27,6 +27,7 @@ nav: true
 ## `Scholarships and Awards`
 ***
 
+* Received **School of Engineering and Applied Sciences (SEAS) Award** for Excellence at Princeton University.
 * Received **Pramod Subramanyan \*17 Early Career Graduate Award** at Princeton University.
 * Awarded **PhD Fellowship** (USD95,000) at Princeton University for the first year of study.
 * Awarded **ThinkSwiss Research Scholarship** (CHF4,800) for the summer reasearch position at EPFL, Switzerland.
@@ -64,8 +65,10 @@ nav: true
 ## `Work Experience`
 ***
 
-* Founder and CEO at [Qubit Inc.](https://www.qubitinc.in/) *January 2020 - Present*.
-* Research Consultant at [Coral Telecom Ltd.](https://www.coraltele.com/) *April 2016 - Present*.
+* Co-founder and CTO at [Illumia AI](https://www.illumia.ai) *April 2024 - Present*.
+* Senior Research Scientist at [Samsung Research](https://sra.samsung.com) *January 2024 - Present*.
+* Founder and CEO at [Qubit Inc.](https://www.qubitinc.in/) *January 2020 - April 2022*.
+* Research Consultant at [Coral Telecom Ltd.](https://www.coraltele.com/) *April 2016 - November 2021*.
 
 <hr style="border:2px solid gray">
 
