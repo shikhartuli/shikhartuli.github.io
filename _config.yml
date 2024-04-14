@@ -8,7 +8,7 @@ middle_name:
 last_name: Tuli
 email: shikhartuli98@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD candidate at the Department of Electrical and Computer Enineering, Princeton University. This is my personal webpage.
+  I am a senior research scientist at the Samsung Research and a co-founder at CTO at Illumia AI. This is my personal webpage.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -81,7 +81,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 7
+news_limit: 9
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
