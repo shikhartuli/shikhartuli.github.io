@@ -10,8 +10,7 @@ profile:
   address: >
     <p>665 Clyde Ave</p>
     <p>Mountain View</p>
-    <p>California</p>
-    <p>CA, 94043</p>
+    <p>CA 94043</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
