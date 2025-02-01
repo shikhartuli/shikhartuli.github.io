@@ -6,7 +6,7 @@ description: <a href="#">Senior ML Engineer</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Shikhar_Tuli_Headshot_cropped.jpg
   address: >
     <p>One Apple Park Way</p>
     <p>MS 929-3SIR</p>
