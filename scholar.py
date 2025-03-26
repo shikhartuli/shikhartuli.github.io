@@ -305,12 +305,8 @@ class ScholarArticleParser(object):
         This predicate function checks whether a BeatifulSoup Tag instance
         has a class attribute.
         """
-        res = tag.get('class') or []
-        if type(res) != list:
-            # BeautifulSoup 3 can return e.g. 'gs_md_wp gs_ttss',
-            # so split -- conveniently produces a list in any case
-            res = res.split()
-        return klass in res
+        classes = tag.get('class', [])
+        return klass in classes
 
     @staticmethod
     def _tag_results_checker(tag):
