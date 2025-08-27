@@ -10,5 +10,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'jekyll-seo-tag'
-    gem 'nokogiri', '< 1.18.0'
+    gem 'nokogiri', '< 1.15.0'
 end
