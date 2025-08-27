@@ -59,7 +59,9 @@ jobs:
             ./bin/deploy
         - name: Ensure CNAME file contains stuli.me
           run: |
+            git fetch origin gh-pages
+            git checkout gh-pages
             echo "stuli.me" > CNAME
             git add CNAME
             git diff --quiet && git diff --staged --quiet || git commit -m "Ensure CNAME contains stuli.me" -a
-            git push origin ${{ github.ref }}
+            git push origin gh-pages
