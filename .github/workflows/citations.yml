@@ -57,3 +57,9 @@ jobs:
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             chmod +x bin/deploy
             ./bin/deploy
+        - name: Ensure CNAME file contains stuli.me
+          run: |
+            echo "stuli.me" > CNAME
+            git add CNAME
+            git diff --quiet && git diff --staged --quiet || git commit -m "Ensure CNAME contains stuli.me" -a
+            git push origin ${{ github.ref }}
