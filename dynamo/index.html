@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Shikhar  Tuli | Shikhar Tuli</title>
+<title>Shikhar  Tuli | </title>
 <meta name="description" content="I am a senior machine learning engineer at Apple, a co-founder at CTO at Illumia AI, and involved with other stealth startups. This is my personal webpage.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/dynamo/">
 
 <!-- Theming-->
 
@@ -49,11 +49,10 @@
 <meta property="og:description" content="I am a senior machine learning engineer at Apple, a co-founder at CTO at Illumia AI, and involved with other stealth startups. This is my personal webpage." />
 <meta property="og:site_name" content="Shikhar Tuli" />
 <meta property="og:type" content="website" />
-<link rel="next" href="/blog/page/2/" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Shikhar Tuli" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"I am a senior machine learning engineer at Apple, a co-founder at CTO at Illumia AI, and involved with other stealth startups. This is my personal webpage.","headline":"Shikhar Tuli","url":"/blog/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"I am a senior machine learning engineer at Apple, a co-founder at CTO at Illumia AI, and involved with other stealth startups. This is my personal webpage.","headline":"Shikhar Tuli","url":"/dynamo/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <meta name="google-site-verification" content="Nl6WPqTm2myPqukYpgdjVOiV6RsxftMqKXM5JOfKYxY" />
@@ -91,7 +90,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -156,72 +155,106 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>#engineeringlife</h1>
-    <h2>my life experiences as an electrical engineer!</h2>
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div align="center">
+  <img src="/assets/img/dynamo_logo.png" alt="DynaMo" width="80" align="center" />
+</div>
+
+<p><br /></p>
+
+<div align="center">
+  <h1>&nbsp;DynaMo: Why Predict Just One Token at a Time?</h1>
+</div>
+
+<hr />
+
+<div align="center">
+  <a href=""><img src="https://img.shields.io/badge/python-v3.10-blue" alt="Python" /></a>
+  <a href=""><img src="https://img.shields.io/badge/pytorch-v2.0.1-e74a2b" alt="PyTorch" /></a>
+  <a href=""><img src="https://img.shields.io/badge/transformers-v4.30.0-8a2be2" alt="Huggingface" /></a>
+  <a href=""><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fshikhartuli.github.io%2Fdynamo&amp;count_bg=%2379C83D&amp;title_bg=%23555555&amp;icon=&amp;icon_color=%23E7E7E7&amp;title=hits&amp;edge_flat=false" alt="Hits" /></a>
+  <br />
+  <a href=""><img src="https://img.shields.io/badge/work%20in%20progress-grey" alt="work-in-progress" /></a>
+</div>
+
+<p><br /></p>
+
+<p>DynaMo is a suite of multi-token prediction models. Our models are instantiated using the <a href="https://github.com/EleutherAI/pythia">Pythia</a> weights. Our models parallely generate multiple tokens using independent token heads.</p>
+
+<div align="center">
+  <img src="/assets/img/multi_token_intro2.png" alt="DynaMo Multi-token Model" width="100%" />
+  <br />
+  <div align="center" width="80%">
+    <em>Multi-token prediction in DynaMo. (a) Traditional autoregressive prediction (one token at a time) requires three forward passes. (b) Non-autoregressive multi-token prediction requires only one forward pass.</em>
   </div>
+  <br />
+</div>
 
+<h2 id="training">Training</h2>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2025/apple/">Joining Apple as a Senior ML Engineer</a></h3>
-        <p class="post-meta">January 27, 2025</p>
-        <p>Joining Apple as a Senior ML Engineer</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2024/srs/">Joining Samsung AI Center as a Senior Research Scientist</a></h3>
-        <p class="post-meta">January 29, 2024</p>
-        <p>Joining Samsung AI Center as a Senior Research Scientist</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/phd/">Officially a Doctor -- I've Completed My PhD!</a></h3>
-        <p class="post-meta">November 30, 2023</p>
-        <p>Officially a Doctor -- I've Completed My PhD!</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/seas/">Received SEAS Award for Excellence</a></h3>
-        <p class="post-meta">September 28, 2023</p>
-        <p>Received SEAS Award for Excellence</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2023/sra/">Joining Samsung AI Center as Summer Research Intern</a></h3>
-        <p class="post-meta">May 6, 2023</p>
-        <p>Joining Samsung AI Center as Summer Research Intern</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2022/next/">Top Downloaded Article Award for survey paper on Smart Healthcare</a></h3>
-        <p class="post-meta">June 22, 2022</p>
-        <p>Top Downloaded Article Award for survey paper on Smart Healthcare</p>
-      </li>
-    
-  </ul>
+<p>We implement training using a modified CLM objective that trains each token head <em>independently</em> using the following loss function:</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="Shikhar Tuli">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="Shikhar Tuli - page 2">2</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+\[\mathcal{L}_{\text{T}n} = - \frac{1}{N} \sum_{j=1}^N \sum_{t=1}^{L - n + 1} \log p(\mathbf{x}_{t+n}^j|\mathbf{x}_{1:t}^j)\]
 
+<p>for the n<sup>th</sup> token head. Here, <em>N</em> is the number of sequences in the training set and the length of the j<sup>th</sup> sequence is <em>L</em>.</p>
 
+<h2 id="multi-token-generation">Multi-token Generation</h2>
+
+<div align="center">
+  <img src="/assets/img/flowchart2.png" alt="DynaMo Text Generation" width="100%" />
+  <br />
+  <div align="center" width="80%">
+    <em>Flowchart of the DynaMo text generation pipeline.</em>
+  </div>
+  <br />
+</div>
+
+<p>We propose three novel techniques to execute multi-token generation using the DynaMo models:</p>
+
+<ul>
+  <li><strong>Co-occurrence weighted masking</strong>: To fix the estimated joint probability distribution that makes the <em>independence</em> assumption, we apply co-occurrence weighted masking to filter out improbable token combinations.</li>
+  <li><strong>Adaptive thresholding</strong>: We implement adaptive thresholding of the estimated joint probability distribution to further boost performance.</li>
+  <li><strong>Dynamic back-off</strong>: We back-off to lower-order n-gram prediction when all the probabilities in the predicted joint probability distribution fall below a threshold.</li>
+</ul>
+
+<p>We show comparisons with other text generation methods below.</p>
+
+<div align="center">
+  <img src="/assets/img/dynamo_comparisons.png" alt="DynaMo Comparisons" width="80%" />
+  <br />
+  <div align="center" width="80%">
+    <em>Comparisons with other approaches. *The skeleton-of-though decoding work evaluates models of different sizes.</em>
+  </div>
+  <br />
+</div>
+
+<h2 id="instruction-finetuning">Instruction Finetuning</h2>
+
+<p>We finetune our models on a filtered Alpaca dataset. This gives us chat versions of our multi-token models.</p>
+
+<div align="center">
+  <img src="/assets/img/dynamo-7p3b-t3.gif" alt="DynaMo-7.3B-T3-Chat vs. Pythia-6.9B" width="100%" />
+  <br />
+  <div align="center" width="100%">
+    <em>DynaMo on Pythia-6.9B.</em>
+  </div>
+  <br />
+</div>
+
+<h2 id="developer">Developer</h2>
+
+<p><a href="https://github.com/shikhartuli">Shikhar Tuli</a>. For any questions, comments or suggestions, please reach me at <a href="mailto:stuli@princeton.edu">stuli@princeton.edu</a>.</p>
+
+<h2 id="license">License</h2>
+
+<p>We are working with Samsung’s legal team to publicly release the source code and model weights. We also plan to release the paper on <a href="https://arxiv.org">arXiv</a> soon. Stay tuned!</p>
+
+  </article>
 
 </div>
 
